@@ -78,6 +78,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .menu nav {
     display: flex;
     gap: 42px;
@@ -146,6 +147,10 @@ header {
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.247);
     margin: 0;
     background-color: transparent !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-inner {
@@ -217,4 +222,5 @@ header {
 
 .logos img:not(:last-child) {
     margin-left: 10%;
+
 }
